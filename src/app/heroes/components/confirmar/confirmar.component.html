@@ -1,0 +1,15 @@
+<h1>¿Eliminar héroe?</h1>
+<hr>
+<p>
+    Está a punto de eliminar a <b>{{data.superhero}}</b>
+</p>
+<br>
+<p>
+    ¿Desea Continuar?
+</p>
+<br>
+<div fxLayout>
+    <button mat-button (click)="borrar()" color="warn">Sí, eliminar</button>
+    <span class="spacer"></span>
+    <button mat-button (click)="cancelar()">Cancelar</button>
+</div>
